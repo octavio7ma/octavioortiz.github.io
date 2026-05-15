@@ -229,14 +229,14 @@
 
     /* --- NUEVO: LINK REPOSITORIO --- */
     .repo-link {
-      margin-top: auto; /* Empuja el link al fondo de la tarjeta */
+      margin-top: auto; 
       padding-top: 15px;
       font-size: 0.9rem;
       font-weight: bold;
       display: inline-block;
     }
     .repo-link::before {
-      content: "📁 "; /* Un pequeño emoji para simular código/repositorio */
+      content: "📁 "; 
     }
 
     /* --- CONTACTO INFERIOR --- */
@@ -281,6 +281,7 @@
     <div id="particles-js"></div>
     
     <div class="header-content">
+      <img src="perfil.jpg" alt="Octavio Ortiz" class="profile-img">
       <h1>Octavio Ortiz Colautti</h1>
       <h2>Desarrollador Full-Stack & Mobile</h2>
       
@@ -294,7 +295,8 @@
       
       <div class="action-buttons">
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ortizcolauttio@gmail.com" target="_blank" class="btn-primary">Enviar un Gmail</a>
-<a href="C:\PlanTSc\CV2026Octavio.pdf_2026_4_10.pdf" download="C:\PlanTSc\CV2026Octavio.pdf_2026_4_10.pdf" class="btn-secondary">Descargar CV</a>
+        
+        <a href="./cv.pdf" download="CV_Octavio_Ortiz.pdf" class="btn-secondary">Descargar CV</a>
       </div>
     </div>
   </div>
@@ -365,7 +367,7 @@
         <div class="contact-methods">
           <div class="contact-item">
             <h4>Email</h4>
-            <a href="mailto:ortizcolauttio@gmail.com">ortizcolauttio@gmail.com</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ortizcolauttio@gmail.com" target="_blank">ortizcolauttio@gmail.com</a>
           </div>
           <div class="contact-item">
             <h4>WhatsApp</h4>
@@ -382,7 +384,6 @@
 
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script>
-    // Partículas del Header (Círculos originales)
     particlesJS("particles-js", {
       "particles": {
         "number": { "value": 60, "density": { "enable": true, "value_area": 800 } },
@@ -400,7 +401,6 @@
       "retina_detect": true
     });
 
-    // Partículas del Cuerpo (Números matemáticos)
     particlesJS("particles-js-body", {
       "particles": {
         "number": { "value": 45, "density": { "enable": true, "value_area": 800 } },
